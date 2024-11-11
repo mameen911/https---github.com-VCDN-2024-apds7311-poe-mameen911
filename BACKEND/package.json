@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.mjs",
     "dev": "nodemon server.mjs",
-    "test-api": "newman run ../APDSPOE.postman_collection.json -e ../APDS_POE.postman_environment.json --reporters cli,junit"
+    "test-api": "newman run ./Postman_Test.postman_collection.json -e ./APDS_ENVIRONMENT.postman_environment.json --reporters cli,junit"
   },
   "keywords": [],
   "author": "",

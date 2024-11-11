@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Postman_Test" tests="3" time="0.000">
+  <testsuite name="login" id="9b75535c-72ec-4abc-96ef-9740a359ab53" timestamp="2024-11-11T13:00:58.381Z" tests="0" failures="0" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: self-signed certificate
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1685:34)
+    at TLSSocket.emit (node:events:519:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1085:8)
+    at ssl.onhandshakedone (node:_tls_wrap:871:12)
+
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="signup" id="3ac6d02c-6185-4405-b206-462d04179d42" timestamp="2024-11-11T13:00:58.381Z" tests="0" failures="0" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: self-signed certificate
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1685:34)
+    at TLSSocket.emit (node:events:519:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1085:8)
+    at ssl.onhandshakedone (node:_tls_wrap:871:12)
+
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Employee login" id="3451dcd4-3577-4b61-beb5-1f6d6e5a342f" timestamp="2024-11-11T13:00:58.381Z" tests="0" failures="0" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: self-signed certificate
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1685:34)
+    at TLSSocket.emit (node:events:519:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1085:8)
+    at ssl.onhandshakedone (node:_tls_wrap:871:12)
+
+---
+]]></system-err>
+  </testsuite>
+</testsuites>
